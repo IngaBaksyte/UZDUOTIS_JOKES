@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>Jokes</title>
+</head>
+
+<body>
+    <main class="container-fluid py-5">
+        <form class="row my-5">
+            <div class="col-12 col-md-6">
+                <label class="visually-hidden" for="autoSizingInput">joke</label>
+                <input type="text" class="form-control rounded-0 " id="autoSizingInput"
+                    placeholder="Search Chuck Norris joke">
+            </div>
+        </form>
+        <!-- Kortelės -->
+        <div class="jokes card-deck row row-cols-2 row-cols-lg-3 row-cols-xl-5 row-cols-xxl-7 g-3">
+            <!-- <article class="col">
+                <div class="card rounded-0">
+                    <div class="card-body text-center">
+                        <p>bla bla bla</p>
+                    </div>
+                </div>
+            </article> -->
+        </div>
+        <div class="no-jokes" style="display: none">
+            <h5>Nieko nerasta...</h5>
+        </div>
+    </main>
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script> <!--visada apacioj -->
+</body>
+
+</html>
